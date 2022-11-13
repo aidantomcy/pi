@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Assistant&family=JetBrains+Mono&display=swap");
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #1f1f1f;
+  color: white;
+  font-family: "jetbrains mono", monospace;
+}
+
+h1 {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+::-webkit-scrollbar {
+  background-color: transparent;
+  background-color: #202324;
+  background-image: none;
+  color: #aba499;
+  height: 8px;
+  width: 8px;
+}
+
+::-webkit-scrollbar-corner {
+  background-color: #181a1b;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #555;
+  background-image: none;
+  border: none;
+  border-radius: 4px;
+  box-shadow: none;
+  min-height: 40px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #404344;
+}
+
+::-webkit-scrollbar-thumb:active {
+  background: #4a4c4d;
+}
+
+::-webkit-scrollbar-track {
+  margin: 3px 0;
+}
+
+p {
+  margin: 1rem;
+  padding: 0;
+  line-height: 2.5rem;
+  letter-spacing: 1.5rem;
+  text-align: center;
+  overflow-wrap: break-word;
+  font-size: 1.5rem;
+}
+
+.three {
+  color: #FF0000;
+}
+
+.one {
+  color: #FFC000;
+}
+
+.four {
+  color: #FFFF00;
+}
+
+.five {
+  color: #92D050;
+}
+
+.nine {
+  color: #00B0F0;
+}
+
+.two {
+  color: #7030A0;
+}
+
+.six {
+  color: #66FFFF;
+}
+
+.eight {
+  color: #00CC00
+}
+
+.seven {
+  color: #deb887;
+}
+
+.zero {
+  color: #9966FF;
+}
